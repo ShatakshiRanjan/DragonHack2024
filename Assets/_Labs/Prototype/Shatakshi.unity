@@ -3049,7 +3049,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294402368}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 522aac2a8e82a4547aeb9770420b16b1, type: 2}
   m_CullingMode: 0
@@ -3062,6 +3062,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &294402378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294402368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c61d80e851703b04486e9681aacffe41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDoor: {fileID: 294402373}
+  doorOpen: DoorOp
 --- !u!1001 &296052223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16127,6 +16141,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1191596092261060, guid: 548b55d3e2f945942be6ac7612199877, type: 3}
       insertIndex: -1
       addedObject: {fileID: 294402373}
+    - targetCorrespondingSourceObject: {fileID: 1191596092261060, guid: 548b55d3e2f945942be6ac7612199877, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 294402378}
   m_SourcePrefab: {fileID: 100100000, guid: 548b55d3e2f945942be6ac7612199877, type: 3}
 --- !u!1001 &1705429053
 PrefabInstance:
@@ -20324,7 +20341,6 @@ SceneRoots:
   - {fileID: 1365848543}
   - {fileID: 687956654}
   - {fileID: 812449618}
-  - {fileID: 1699356754}
   - {fileID: 1255807718}
   - {fileID: 155359803}
   - {fileID: 1981416029}
@@ -20349,3 +20365,4 @@ SceneRoots:
   - {fileID: 139014604}
   - {fileID: 1358022268}
   - {fileID: 1423662386}
+  - {fileID: 1699356754}

@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PlayAnim : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Animator myDoor = null;
+    [SerializeField] private string doorOpen = "Door";
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        myDoor.Play(doorOpen, 0, 0.0f);
     }
 }
